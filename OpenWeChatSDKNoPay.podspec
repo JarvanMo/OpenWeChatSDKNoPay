@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   
    s.source = {
-    :git => "https://github.com/JarvanMo/OpenWeChatSDKNoPay",
+    :git => "https://github.com/JarvanMo/OpenWeChatSDKNoPay.git",
     :tag => "#{s.version}"
   }
 
