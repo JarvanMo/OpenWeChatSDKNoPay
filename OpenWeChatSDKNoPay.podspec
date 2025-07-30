@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '12.0'
   s.requires_arc = true
 
-  s.vendored_frameworks   = 'WechatOpenSDK-XCFramework.xcframework'
+  s.vendored_frameworks   = 'WechatOpenSDK-NoPay.xcframework'
   s.frameworks = 'CoreGraphics', 'Security', 'WebKit'
   s.libraries = 'c++', 'z', 'sqlite3.0'
 
