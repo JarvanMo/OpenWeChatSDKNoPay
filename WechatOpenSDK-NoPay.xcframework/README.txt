@@ -1,6 +1,10 @@
 重要!
+SDK2.0.6
+1. 将全局CFURLCreateStringByAddingPercentEscapes替换成stringByAddingPercentEncodingWithAllowedCharacters
+2. 增加支付接口 PayReq、JointPayReq 的调用信息上报
+
 SDK2.0.5
-1. 支持模块化集成​：XCFramework 头文件引用改为标准化格式 #import <WechatOpenSDK/WXApi.h>，解决路径冲突并支持 Swift/ObjC 混合开发
+1. 优化XCFramework打包方式
 2. 修复openWXApp偶现失败的问题
 
 SDK2.0.4
